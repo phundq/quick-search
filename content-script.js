@@ -43,6 +43,7 @@ function doStuff(selection) {
 
                 let buttonE = document.createElement("button");
                 buttonE.id = "searchBtn";
+                buttonE.title = "Search with stackoverflow.com";
                 buttonE.style.background = "url(" + encodeURI(imgURL) + ")";
                 buttonE.classList.add("qs-btn")
                 buttonE.style.top = window.scrollY + rect.bottom + 10 + 'px'
